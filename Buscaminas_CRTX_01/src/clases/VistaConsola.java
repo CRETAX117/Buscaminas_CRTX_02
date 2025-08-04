@@ -62,7 +62,13 @@ public class VistaConsola {
         return scanner.nextLine().trim();
     }
 
+    /**
+     * Método de cierre de la vista.  No cierra la entrada estándar para evitar
+     * interferir con otros lectores de System.in (como el menú principal en
+     * BuscaminasApp).  Dejar el scanner abierto previene excepciones
+     * NoSuchElementException cuando la aplicación solicita más entrada.
+     */
     public void cerrar() {
-        scanner.close();
+        // No cerrar System.in aquí; el recurso se cerrará en la clase principal.
     }
 }
