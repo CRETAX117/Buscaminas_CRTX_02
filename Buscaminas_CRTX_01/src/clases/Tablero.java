@@ -17,11 +17,14 @@ import java.io.Serializable;
 import java.util.Random;
 
 /**
- * La clase Tablero administra un conjunto bidimensional de casillas.  Se
- * encarga de inicializar la partida distribuyendo minas aleatoriamente y
+ * La clase Tablero administra un conjunto bidimensional de casillas.  
+ * 
+ * Se encarga de inicializar la partida distribuyendo minas aleatoriamente y
  * calculando el número de minas adyacentes para cada casilla.  Provee
  * operaciones para revelar y marcar casillas, así como para determinar
- * cuándo el jugador ha ganado.  También ofrece funciones para guardar y
+ * cuándo el jugador ha ganado.  
+ * 
+ * También ofrece funciones para guardar y
  * cargar el estado del tablero en un archivo de texto.
  */
 public class Tablero implements Serializable {

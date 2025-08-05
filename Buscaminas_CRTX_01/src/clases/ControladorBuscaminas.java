@@ -3,14 +3,16 @@
  * Hecho por Brandon Cárdenas
  * correo: bcardenasc5@est.ups.edu.ec
  * Fecha de Modificación: 04/08/2025
- * Clase ControladorBuscaminas
+ * Clase CoordenadaInvalidaException
  */
 
 package clases;
 
 /**
  * El ControladorBuscaminas coordina la interacción entre el modelo (Tablero)
- * y la vista (VistaConsola).  Contiene la lógica del flujo del juego,
+ * y la vista (VistaConsola).  
+ * 
+ * Contiene la lógica del flujo del juego,
  * interpretando las entradas del usuario y actualizando el tablero en
  * consecuencia.  Se encarga de manejar las excepciones de forma que el
  * usuario reciba retroalimentación clara.

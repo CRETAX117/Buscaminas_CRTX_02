@@ -16,14 +16,16 @@ import java.util.Scanner;
  * Clase con el método main para ejecutar el juego de Buscaminas.  Presenta
  * un menú sencillo que permite iniciar una nueva partida o cargar una
  * partida previa.  Una vez iniciada la partida delega el control al
- * controlador.  Este archivo se encuentra fuera del paquete de clases
+ * controlador.  
+ * 
+ * Este archivo se encuentra fuera del paquete de clases
  * para diferenciar claramente la capa de aplicación de la lógica del
  * negocio.
  */
 public class BuscaminasApp {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("=== JUEGO BUSCAMINAS ===");
+        System.out.println("=== 	JUEGO BUSCAMINAS	===");
         System.out.println("---        by Cretax        ---");
         boolean salir = false;
         while (!salir) {

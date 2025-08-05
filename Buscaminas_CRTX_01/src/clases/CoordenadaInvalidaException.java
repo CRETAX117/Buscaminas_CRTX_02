@@ -10,8 +10,9 @@ package clases;
 
 /**
  * Excepción personalizada que se lanza cuando el usuario ingresa una
- * coordenada inválida (por ejemplo fuera de los límites del tablero).  La
- * validación de coordenadas asegura que las operaciones no provoquen
+ * coordenada inválida (por ejemplo fuera de los límites del tablero).  
+ * 
+ * La validación de coordenadas asegura que las operaciones no provoquen
  * errores como ArrayIndexOutOfBoundsException.
  */
 public class CoordenadaInvalidaException extends Exception {
