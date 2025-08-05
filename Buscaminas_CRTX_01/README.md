@@ -1,4 +1,4 @@
-# BuscaminasApp - POO_U3_Buscaminas
+# BuscaminasApp - POO_U4_Buscaminas
 
 **Programación Orientada a Objetos • Universidad Politécnica Salesiana**
 
@@ -38,8 +38,8 @@ Este proyecto es una aplicación de consola que recrea el clásico juego **Busca
 ### Clonar el proyecto (si se aloja en Git)
 
 ```bash
-git clone https://github.com/usuario/POO_U3_Buscaminas.git
-cd POO_U3_Buscaminas/buscaminas_pkg
+git clone https://github.com/CRETAX117/Buscaminas_CRTX_02.git
+cd POO_U4_Buscaminas/Buscaminas_CRTX_02
 ```
 
 ### Compilar y ejecutar desde consola
@@ -48,7 +48,7 @@ cd POO_U3_Buscaminas/buscaminas_pkg
 
    ```bash
    mkdir -p bin
-   javac -d bin buscaminas_pkg/clases/*.java buscaminas_pkg/BuscaminasApp.java
+   javac -d bin Buscaminas_CRTX_02/clases/*.java Buscaminas_CRTX_02/BuscaminasApp.java
    ```
 
 2. Ejecuta la aplicación indicando el classpath y la clase principal:
@@ -59,7 +59,7 @@ cd POO_U3_Buscaminas/buscaminas_pkg
 
 ### Importar en un IDE (NetBeans/Eclipse/IntelliJ)
 
-1. Selecciona **File → Open Project** y elige la carpeta raíz `buscaminas_pkg`.
+1. Selecciona **File → Open Project** y elige la carpeta raíz `Buscaminas_CRTX_02`.
 2. Asegúrate de que el IDE reconoce el paquete `clases` y el archivo `BuscaminasApp.java` como clase principal.
 3. Ejecuta `BuscaminasApp` desde el IDE.
 
